@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hola !</h1>
+    <h1>Hola amigños !</h1>
     <p>Bienvenidos a mi sitio.</p>
     s<StaticImage
       src="../images/webTapiara.jpg"
