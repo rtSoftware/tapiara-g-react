@@ -8,11 +8,10 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
+    <h1>Hola !</h1>
+    <p>Bienvenidos a mi sitio.</p>
+    s<StaticImage
+      src="../images/webTapiara.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -20,11 +19,11 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/hola/">Go to hola</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/page-2/">Ir a la página 2</Link> <br />
+      <Link to="/hola/">Regresar a hola</Link> <br />
+      <Link to="/using-typescript/">Ir a "Using TypeScript"</Link> <br />
+      <Link to="/using-ssr">Ir a "Using SSR"</Link> <br />
+      <Link to="/using-dsg">Ir a "Using DSG"</Link>
     </p>
   </Layout>
 )
